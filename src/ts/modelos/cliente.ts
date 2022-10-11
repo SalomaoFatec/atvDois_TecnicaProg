@@ -23,9 +23,11 @@ export default class Cliente {
     public get Nome() { return this.nome }
     public set Nome(nome: string) { this.nome = nome }
     public get NomeSocial() { return this.nomeSocial }
-    public get DataNascimento() { return this.dataNascimento }
     public get DataCadastro() { return this.dataCadastro }
+    public get DataNascimento() { return this.dataNascimento }
+    public set DataNascimento(dataNascimento: Date) { this.dataNascimento = dataNascimento }
     public get Telefones() { return this.telefones }
+    public set Telefones(telefones: Telefone[]) { this.telefones = telefones }
     public get Endereco() { return this.endereco }
     public get Documentos() { return this.documentos }
     public get Dependentes() { return this.dependentes }
