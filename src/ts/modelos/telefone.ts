@@ -6,5 +6,7 @@ export default class Telefone {
         this.numero = numero
     }
     public get Ddd() { return this.ddd }
+    public set Ddd(ddd: string) { this.ddd = ddd }
     public get Numero() { return this.numero }
+    public set Numero(numero: string) { this.numero = numero }
 }
